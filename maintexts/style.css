@@ -1,0 +1,60 @@
+body{
+    background-color: #f5f5e5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    font-family: 'simsun';
+    font-size: 15px;
+}
+
+#title{
+    font-family: 'simsun';
+    font-size: 50px;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+a{text-decoration: none}
+a:link{color: #000000}
+a:visited{color: #000000}
+a:hover{color: #808080}
+a:active{color: #808080}
+
+hr{
+    border: none;
+    border-top: 2px solid grey;
+}
+
+#by{margin-bottom: 0.1em;}
+#vf{margin-top: 0;margin-bottom: 0;}
+#create{margin-top: 0.1em;}
+#started{margin-bottom: 0.1em;}
+#to{margin-top: 0;margin-bottom: 0;}
+#ended{margin-top: 0.1em;}
+
+#maintext{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+#maintext p{
+    text-indent: 2em;
+    font-family: 'simsun';
+    font-size: 25px;
+}
